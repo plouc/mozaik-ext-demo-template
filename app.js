@@ -1,4 +1,4 @@
-require('babel/register')({
+require('babel-register')({
     only: [
         /node_modules\/mozaik[^/]*\/src/,
         /src\/server\.js/,
