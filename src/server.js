@@ -14,7 +14,7 @@ const forceSSL = (req, res, next) => {
 
 
 const mozaik = new Mozaik(config);
-//mozaik.bus.registerApi('EXT_NAME', EXT_NAME);
+//mozaik.bus.registerApi('EXT_NAME', EXT_NAME)
 
 
 const app    = express()
